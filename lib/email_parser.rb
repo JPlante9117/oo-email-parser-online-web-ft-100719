@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    @emails.gsub(/(\s|,)/, " ").split(" ")
+    @emails.split(/(\s|,\s)/)
   end
   
 end
