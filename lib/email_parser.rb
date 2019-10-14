@@ -5,4 +5,8 @@
 
 class EmailAddressParser
   
+  def parse
+    self.split(/(\s|/)
+  end
+  
 end
