@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    @emails.gsub(/(\s|,\s)/).split(" ").map { |emails|
+    @emails.gsub(/(\s|,\s)/).split(" ").uniq
   end
   
 end
