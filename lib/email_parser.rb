@@ -5,8 +5,12 @@
 
 class EmailAddressParser
   
+  def initialize
+    @parser = self.new
+  end
+  
   def parse
-    parser.split(/(\s|,/)
+    @parser.split(/(\s|,/)
   end
   
 end
