@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    @parser.split(/(\s|,/)
+    @parser.split(/(\s|,/))
   end
   
 end
